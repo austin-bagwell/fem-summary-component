@@ -3,7 +3,7 @@
     sans-serif;
   font-size: 18px;
   line-height: 1.5;
-  font-weight: 400;
+  font-weight: 500;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -11,7 +11,11 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 
-  --font-weight-nrml: font-weight()
+  --font-weight-bold: 700;
+  --font-weight-xbold: 800;
+
+  --border-radius-container: 10px;
+  --border-radius-circle: 50%;
 
   --color-primary-red: hsl(0, 100%, 67%);
   --color-primary-yellow: hsl(39, 100%, 56%);
@@ -27,4 +31,4 @@
   --color-gradient-royal-blue: hsl(241, 81%, 54%);
   --color-gradient-violet-blue: hsla(256, 72%, 46%, 1);
   --color-gradient-persian-blue: hsla(241, 72%, 46%, 0);
-};
+}

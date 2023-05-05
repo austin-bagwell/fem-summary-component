@@ -2,7 +2,7 @@
   display: flex;
   margin: auto;
   max-width: 33vw;
-  border-radius: 10px;
+  border-radius: var(--border-radius-container);
   box-shadow: 8px 8px 25px 10px var(--color-neutral-lavender);
   border: 1px solid red;
 }
