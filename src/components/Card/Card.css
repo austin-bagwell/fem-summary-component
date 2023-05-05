@@ -1,0 +1,17 @@
+.card {
+  display: flex;
+  margin: auto;
+  max-width: 33vw;
+  border-radius: 10px;
+  box-shadow: 8px 8px 25px 10px var(--color-neutral-lavender);
+  border: 1px solid red;
+}
+
+@media screen and (max-width: 375px) {
+  .card {
+    max-width: 100%;
+    flex-direction: column;
+    border: 2px solid yellowgreen;
+    box-shadow: none;
+  }
+}

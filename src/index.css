@@ -27,17 +27,4 @@
   --color-gradient-royal-blue: hsl(241, 81%, 54%);
   --color-gradient-violet-blue: hsla(256, 72%, 46%, 1);
   --color-gradient-persian-blue: hsla(241, 72%, 46%, 0);
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
-}
+};

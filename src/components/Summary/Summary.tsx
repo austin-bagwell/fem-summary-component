@@ -1,7 +1,7 @@
 export default function Summary() {
   return (
-    <section>
+    <div>
       <p>a summary of Sumeria</p>
-    </section>
+    </div>
   );
 }
