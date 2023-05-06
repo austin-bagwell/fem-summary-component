@@ -1,0 +1,16 @@
+.summary-section {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.summary-button {
+  color: var(--color-neutral-lavender);
+  background-color: var(--color-neutral-gray-blue);
+  border-radius: var(--border-radius-container);
+  border: none;
+}
+
+.summary-button:hover {
+  background-color: var(--color-gradient-slate-blue);
+}
