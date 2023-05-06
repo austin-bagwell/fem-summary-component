@@ -14,8 +14,9 @@
   flex-direction: column;
   justify-content: center;
   margin: auto;
-  height: 150px;
-  width: 150px;
+  padding: 0.75rem;
+  height: 125px;
+  width: 125px;
   background: linear-gradient(
     var(--color-gradient-violet-blue),
     var(--color-gradient-slate-blue)
@@ -34,11 +35,24 @@
 }
 
 .result-score {
-  font-size: 1.75rem;
+  color: var(--color-neutral-white);
+  font-size: 3rem;
+}
+
+.result-of-100 {
+  color: var(--color-neutral-lavender);
+}
+
+.result-descriptor {
+  margin-top: 0.85rem;
+  color: var(--color-neutral-white);
 }
 
 .result-comparison {
-  color: greenyellow;
+  margin: 0;
+  padding: 1rem 4rem;
+  text-align: center;
+  color: var(--color-neutral-lavender);
 }
 
 .font-lavender {
