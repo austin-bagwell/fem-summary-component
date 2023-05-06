@@ -6,7 +6,7 @@ import reaction from "../../assets/images/icon-reaction.svg";
 export default function Summary() {
   return (
     <div className="summary-section">
-      <p>a summary of Sumeria</p>
+      <h2>Summary</h2>
       <ListItem
         className="list-item"
         svgUrl={reaction}

@@ -2,7 +2,13 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 1rem 3rem;
   flex: 1;
+}
+
+.summary-section h2 {
+  text-align: left;
+  align-self: flex-start;
 }
 
 .summary-button {
@@ -10,7 +16,7 @@
   background-color: var(--color-neutral-gray-blue);
   border-radius: var(--border-radius-container);
   border: none;
-  width: 75%;
+  width: 100%;
   height: 10%;
 }
 
@@ -21,7 +27,7 @@
 .list-item {
   display: flex;
   justify-content: space-between;
-  width: 75%;
+  width: 100%;
 }
 
 .list-item svg {
