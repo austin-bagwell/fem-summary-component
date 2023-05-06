@@ -40,3 +40,7 @@
 .space-between {
   justify-content: space-between;
 }
+
+.font-bold {
+  font-weight: var(--font-weight-bold);
+}

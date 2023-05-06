@@ -1,6 +1,6 @@
 import "./Summary.css";
 import Button from "../Elements/Button";
-import ListItem from "../Elements/ListItem";
+import Category from "../Elements/Category";
 import reaction from "../../assets/images/icon-reaction.svg";
 import memory from "../../assets/images/icon-memory.svg";
 import visual from "../../assets/images/icon-visual.svg";
@@ -29,10 +29,11 @@ const data = [
   },
 ];
 
-const listItems = data.map((item) => (
-  <ListItem
-    className="list-item"
-    svgUrl={item.icon}
+const categories = data.map((item) => (
+  <Category
+    key={item.category.toLowerCase()}
+    className={`summary-category ${item.category.toLowerCase()}`}
+    icon={item.icon}
     category={item.category}
     score={item.score}
   />
@@ -42,7 +43,7 @@ export default function Summary() {
   return (
     <div className="summary-section">
       <h2>Summary</h2>
-      {listItems}
+      {categories}
       <Button className="summary-button" displayText="Continue" />
     </div>
   );
