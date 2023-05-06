@@ -37,7 +37,7 @@
 }
 
 .summary-category img {
-  margin: 0 1rem;
+  margin: 0 0.5rem;
   width: 1.75rem;
   height: auto;
 }
@@ -47,7 +47,7 @@
 }
 
 .summary-category-user-score {
-  margin-right: 0.1rem;
+  margin-right: 0.2rem;
   color: var(--color-neutral-gray-blue);
   font-weight: var(--font-weight-xbold);
 }
