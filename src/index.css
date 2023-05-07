@@ -43,3 +43,19 @@
 .font-bold {
   font-weight: var(--font-weight-bold);
 }
+
+@media screen and (max-width: 375px) {
+  #root {
+    margin: 0;
+  }
+
+  .card {
+    min-width: 100%;
+    flex-direction: column;
+    box-shadow: none;
+  }
+
+  .result-section {
+    border-radius: 0px 0px 10px 10px;
+  }
+}

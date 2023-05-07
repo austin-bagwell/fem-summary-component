@@ -1,15 +1,8 @@
 .card {
   display: flex;
   margin: auto;
-  max-width: 40vw;
+  max-width: 60%;
+  /* height: 80%; */
   border-radius: var(--border-radius-container);
-  box-shadow: 8px 8px 25px 10px var(--color-neutral-lavender);
-}
-
-@media screen and (max-width: 375px) {
-  .card {
-    max-width: 100%;
-    flex-direction: column;
-    box-shadow: none;
-  }
+  box-shadow: 10px 13px 25px 8px var(--color-neutral-pale-blue);
 }
