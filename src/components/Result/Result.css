@@ -39,7 +39,8 @@
 
 .result-score {
   color: var(--color-neutral-white);
-  font-size: 3rem;
+  font-size: 3.5rem;
+  margin-bottom: 0;
 }
 
 .result-of-100 {

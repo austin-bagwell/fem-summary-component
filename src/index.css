@@ -44,6 +44,10 @@
   font-weight: var(--font-weight-bold);
 }
 
+.font-xbold {
+  font-weight: var(--font-weight-xbold);
+}
+
 @media screen and (max-width: 375px) {
   #root {
     margin: 0;
