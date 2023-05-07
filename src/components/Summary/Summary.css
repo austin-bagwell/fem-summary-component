@@ -12,17 +12,22 @@
 }
 
 .summary-button {
-  color: var(--color-neutral-lavender);
+  color: var(--color-neutral-pale-blue);
   background-color: var(--color-neutral-gray-blue);
-  font-size: 1.5rem;
   font-weight: var(--font-weight-bold);
-  border-radius: var(--border-radius-container);
+  padding: 0.5rem 1rem;
+  border-radius: 40px;
   border: none;
   width: 100%;
+  height: 3rem;
 }
 
 .summary-button:hover {
-  background-color: var(--color-gradient-slate-blue);
+  background: linear-gradient(
+    to top,
+    var(--color-gradient-violet-blue),
+    var(--color-gradient-slate-blue)
+  );
 }
 
 .summary-category {
